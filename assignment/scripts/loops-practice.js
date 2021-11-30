@@ -11,12 +11,13 @@ for (let i=0; i<4; i++) {
 // 1.a. TODO: Write a for loop to console.log the numbers from 0 to 5 
 //   - Which part of the example loop do you need to change to do this?
 console.log('count from 0 to 5');
-// start i at 0, while i is <6 do code between {} afterwards add 1 to i (i++)
+//The part that i will have to change is i<4 and instead do i<6.
 for (let i = 0; i<6; i++){
   console.log(i);
 }
 // 1.b. TODO: Write a for loop to console.log the numbers from 3 to 5
 //   - Which part of the example loop do you need to change to do this?
+// The part that i need to change is initialized i = 0; and instead change that to i = 3
 console.log('count from 3 to 5');
 for (let i = 3; i<6; i++){
   console.log(i);
@@ -24,6 +25,7 @@ for (let i = 3; i<6; i++){
 
 // 1.c. TODO: Write a for loop to console.log EVEN numbers from 2 to 10
 //   - Which part of the example loop do you need to change to do this?
+//The part that i had to change was the initalized i =, the conditional i<, and i added a if statement.
 console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
 for (let i = 2; i<12; i++){
   if (i % 2 == 0) console.log(i);
@@ -41,9 +43,15 @@ let stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
 // 2.a. TODO: Write a for of loop to console.log each star in the 'stars' array
 // console.log('Some stars:');
 stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
-for ( let i=0; i<stars.length; i++){
-  console.log(stars[i]);
+for (let s of stars){
+    console.log(s);
 }
+
+
+// stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
+// for ( let i=0; i<stars.length; i++){
+//   console.log(stars[i]);
+// }
 // 3. While loops  
 console.log('---- 3. While loop ----');
 
